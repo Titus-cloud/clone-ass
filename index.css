@@ -1,0 +1,166 @@
+/* this is the body part and backgroud */
+body{
+  background-image: url(pex.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 1000px;
+}
+
+/* this is the navigation part */
+nav{
+  display: flex;
+  align-items: center;
+  float: left;
+  margin: 10px;
+  height: 15px;
+  width: auto;
+}
+
+img{
+  padding-left: 10px;
+  float: right;
+  padding-top: 15px;
+}
+
+.nav{
+  float: left;
+  height: 50px;
+}
+
+ul{
+  justify-content: center;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  
+}
+ul li{
+  display: flex;
+
+}
+ul li a{
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  justify-items: left;
+  text-decoration: none;
+  display: flex;
+  margin-left: 10px;
+  padding-left: 60px;
+}
+
+ul li a:hover{
+  color: orange;
+}
+.input{
+  padding: 15px;
+  margin-left: 10px;
+  display: flex;
+  
+}
+.sach{
+  background: transparent;
+  border: solid;
+  border-width: 1px;
+  border-color: orange;
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.btn{
+  color: white;
+  background-color: orange;
+  border-radius: 7px;
+  height: 40px;
+  width: 100px;
+  border: none;
+}
+
+/* the discription area */
+.cript{
+  margin: auto;
+  height: auto;
+  color: white;
+  position: relative;
+  padding:10px;
+}
+.cript .h1{
+  padding-left: 40px;
+  margin-top: 15px;
+}
+.join{
+  width: 120px;
+  height: 35px;
+  background: orange;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+.cript span{
+  color: orange;
+}
+
+/* The form signing area  */
+.form{
+  width: 250px;
+  height: 280px;
+  background: transparent;
+  top: -20px;
+  right: 870px;
+  border-radius: 10px;
+  padding: 25px;
+}
+.form h2{
+  width: 220px;
+  text-align: center;
+  color: orange;
+  background-color: white;
+  border-radius: 7px;
+  margin: 4px;
+  padding: 10px;
+}
+
+.form input{
+  width: 180px;
+  background: transparent;
+  height: 25px;
+  color: white;
+  border: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: orange;
+}
+
+.form link{
+  color: orange;
+  text-decoration: none;
+
+}
+
+.log{
+  margin-top: 20px;
+  background-color: orange;
+  border: none;
+  width: 180px;
+  height: 40px;
+  border-radius: 8px;
+}
+.log a{
+  color: black;
+  text-decoration: none;
+}
+
+#sign{
+ text-decoration: none;
+}
+
+#sign span:hover{
+  color: gray;
+}
